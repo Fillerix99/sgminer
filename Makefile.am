@@ -70,6 +70,9 @@ sgminer_SOURCES += algorithm/neoscrypt.c algorithm/neoscrypt.h
 sgminer_SOURCES += algorithm/whirlpoolx.c algorithm/whirlpoolx.h
 sgminer_SOURCES += algorithm/lyra2re.c algorithm/lyra2re.h algorithm/lyra2.c algorithm/lyra2.h algorithm/sponge.c algorithm/sponge.h
 sgminer_SOURCES += algorithm/pluck.c algorithm/pluck.h
+sgminer_SOURCES += algorithm/lbry.c
+sgminer_SOURCES += sha3/sph_sha2.h
+sgminer_SOURCES += sha3/sph_ripemd.h
 
 bin_SCRIPTS	= $(top_srcdir)/kernel/*.cl
 
