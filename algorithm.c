@@ -34,6 +34,7 @@
 #include "algorithm/whirlpoolx.h"
 #include "algorithm/lyra2re.h"
 #include "algorithm/pluck.h"
+#include "algorithm/lbry.h"
 
 #include "compat.h"
 
@@ -58,7 +59,8 @@ const char *algorithm_type_str[] = {
   "Neoscrypt",
   "WhirlpoolX",
   "Lyra2RE",
-  "Pluck"
+  "Pluck",
+  "lbry"
 };
 
 void sha256(const unsigned char *message, unsigned int len, unsigned char *digest)
